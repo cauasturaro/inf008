@@ -36,7 +36,7 @@ class Post {
     }
 
     private void validarConteudo(String conteudo) {
-        if (conteudo == null || conteudo.trim().isEmpty()) {
+        if (conteudo == null || conteudo.trim().isEmpty()) 
         throw new IllegalArgumentException("Conteúdo não pode ser vazio");
     }
 }
