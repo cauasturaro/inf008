@@ -64,5 +64,4 @@ public class questao2 {
         energyBill3.registerUsage(100.5);
         energyBill3.display();
     }
-
 }
